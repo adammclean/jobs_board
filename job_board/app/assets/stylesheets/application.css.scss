@@ -1,2 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#jobs{
+	.job{
+	  padding: 1em 0;
+	  border-bottom: 1px solid #000 !important;
+	}
+}
