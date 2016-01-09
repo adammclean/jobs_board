@@ -1,4 +1,3 @@
 class Job < ActiveRecord::Base
-  def index
-  end
+  belongs_to :category
 end
