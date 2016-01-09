@@ -1,0 +1,7 @@
+%h1= @job.title
+%p= @job.description
+%p= @job.company
+%p= @job.address
+
+= link_to "Home", root_path
+= link_to "Edit", edit_job_path(@job)
