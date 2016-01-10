@@ -1,7 +1,9 @@
-#jobs
-	-	@jobs.each do |job|
-		.job
-			%h2= link_to job.title, job
-			%p= job.company
+.col-md-6
+	#jobs
+		-	@jobs.each do |job|
+			.job
+				%h2= link_to job.title, job
+				%p= job.company
 
-= link_to "New Job", new_job_path	
+.col-md-4.col-md-offset-1
+	= render 'job_roll'
